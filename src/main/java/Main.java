@@ -34,7 +34,8 @@ public class Main {
             if(b == 0){
               System.out.printf("nie dzielimy przez zero\n");
               break;
-            } else {
+            }
+            else {
               double iloraz = a / b;
               System.out.printf("iloraz: %f\n", iloraz);
               break;
@@ -72,10 +73,10 @@ public class Main {
     }
     skaner.close();
   }
+}
 
 
   // @Test
   // void addition() {
   //     assertEquals(2, 1 + 1);
   // }
-}
